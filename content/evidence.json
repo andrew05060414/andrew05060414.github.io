@@ -1,0 +1,20 @@
+[
+  {
+    "repo": "lidge-jun/opencodex",
+    "number": 7701,
+    "title": "fix(xai): publish the subscription lane's widest context rung for Grok 4.5-4.7",
+    "url": "https://github.com/lidge-jun/opencodex/pull/7701"
+  },
+  {
+    "repo": "kenn-io/agentsview",
+    "number": 2439,
+    "title": "fix(parser): read DeepSeek Harness sessions that log job lifecycle events",
+    "url": "https://github.com/kenn-io/agentsview/pull/2439"
+  },
+  {
+    "repo": "wess09/AzurPilot",
+    "number": 803,
+    "title": "fix(config): 移除配置读写的 stdout 副作用",
+    "url": "https://github.com/wess09/AzurPilot/pull/803"
+  }
+]

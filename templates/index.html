@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="{{htmlLang}}">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{pageTitle}}</title><meta name="description" content="{{description}}">
+<meta name="theme-color" content="#0a0b09"><meta name="color-scheme" content="dark light">
+<meta name="author" content="Andrew Wang"><meta name="robots" content="index,follow">
+<link rel="canonical" href="{{canonical}}"><link rel="alternate" hreflang="en" href="https://andrew05060414.github.io/"><link rel="alternate" hreflang="zh-CN" href="https://andrew05060414.github.io/zh/"><link rel="alternate" hreflang="x-default" href="https://andrew05060414.github.io/">
+<meta property="og:type" content="website"><meta property="og:title" content="{{pageTitle}}"><meta property="og:description" content="{{description}}"><meta property="og:url" content="{{canonical}}"><meta property="og:image" content="https://andrew05060414.github.io/assets/social-card.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Andrew Wang — AI infrastructure and LLM systems, Carnegie Mellon University"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="preload" href="/assets/jetbrains-mono-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/assets/site.css"><script src="/assets/site.js" defer></script>
+</head>
+<body><a class="skip-link" href="#main">{{skipLabel}}</a><div class="aw pal-crt lang-{{lang}}">
+<header class="top">
+<span class="brand">AW / CTRL</span>
+<span class="mid"><span><span class="dot"></span>{{t.signal}}</span><span class="clock">{{t.pit}} <time data-clock="">--:--</time> <span data-timezone="">ET</span></span></span>
+<div class="controls"><button aria-label="{{ themeLabel }}" class="theme-toggle" data-theme-toggle="" type="button">{{ themeButton }}</button><nav aria-label="{{ languageLabel }}" class="lgs"><a class="lg {{enCls}}" href="/" lang="en" hreflang="en" aria-current="{{enCurrent}}">EN</a><a class="lg {{zhCls}}" href="/zh/" lang="zh-CN" hreflang="zh-CN" aria-current="{{zhCurrent}}">中</a></nav></div></header><main class="stage" id="main">
+<div>
+<div aria-hidden="true" class="kick"><span>&gt; open personnel_file --id andrew</span><span>{{t.clr}} <b>OWNER</b></span></div>
+<h1 class="h1">
+<span class="sr">Andrew Wang. </span>
+<span aria-hidden="true" class="led">
+{% for row in rows %}
+<span class="lrow" style="grid-template-columns: repeat({{row.cols}}, minmax(0, 1fr)); width: {{row.w}}%">
+{% for c in row.cells %}<span class="{{c.cls}}" style="animation-delay: {{c.d}}ms"></span>{% endfor %}
+</span>
+{% endfor %}
+</span>
+<span class="statement">{{t.statement}}<span class="cn">王施元</span></span>
+</h1>
+<div class="quick">
+<a href="https://github.com/andrew05060414">GitHub ↗</a>
+<a href="https://www.linkedin.com/in/andrewwanglink/">LinkedIn ↗</a>
+<a href="mailto:andrewwangmail@gmail.com">andrewwangmail@gmail.com</a>
+</div>
+<p class="identity-line">{{identityLine}}</p><div class="motto">{{t.motto}}</div>
+</div>
+<section aria-label="{{t.fieldH}}" class="fpanel">
+<div class="fh"><span>{{t.fieldH}}</span><span>PXRead</span></div>
+<div class="fbody">
+<div aria-label="{{t.fieldAria}}" class="field" role="img">
+{% for f in field %}<span class="{{f.cls}}" style="animation-delay: {{f.d}}ms"></span>{% endfor %}
+</div>
+<div class="fl">
+{% for x in tiers %}<div><b>{{x.n}}</b><span class="sw {{x.sw}}"></span>{{x.name}}</div>{% endfor %}
+</div>
+<div class="cap"><span><span class="sw k-green"></span>{{t.lgGreen}}</span><span><span class="sw k-amber"></span>{{t.lgAmber}}</span><span><span class="sw k-ring"></span>{{t.lgRing}}</span></div>
+<p class="snapshot-note">{{snapshotNote}} <a data-panel="work" href="#work">{{methodLink}}</a></p></div>
+<div aria-live="off" class="feed"><span>›</span><span>{{feed}}</span><span class="cur"></span></div>
+</section>
+</main><nav aria-label="{{t.navAria}}" class="dock">
+{% for k in keys %}
+<a class="key" data-panel="{{k.id}}" href="#{{k.id}}"><span class="kn">{{k.n}}</span><span><span class="kl">{{k.l}}</span><br/><span class="ks">{{k.s}}</span></span></a>
+{% endfor %}
+</nav><div class="archives"><section aria-labelledby="about-title" class="win file-section" id="about"><div class="wh"><span>about.txt · {{t.ro}}</span><a class="x close-file" data-close="" href="#main">{{t.close}} ×</a></div>
+<h2 class="wt" id="about-title">{{t.aboutT}}</h2>
+<div class="two">
+<div class="prose">{% for p in t.aboutP %}<p>{{p}}</p>{% endfor %}</div>
+<div class="rec">
+{% for e in t.edu %}<div class="rr"><div class="rk">{{e.k}}</div><div class="rv">{{e.v}}</div><div class="rd">{{e.d}}</div></div>{% endfor %}
+<div class="rr"><div class="rk">{{t.seekK}}</div><div class="rv">{{t.seekV}}</div>
+<div class="chips">{% for r in t.roles %}<span class="chip">{{r}}</span>{% endfor %}</div></div>
+</div>
+</div>
+<div class="jobs">
+{% for j in t.jobs %}
+<div class="job"><div class="jh"><span>{{j.where}}</span><span>{{j.when}}</span></div><h3 class="jn">{{j.org}}</h3><div class="jr">{{j.role}}</div><p class="jb">{{j.body}}</p></div>
+{% endfor %}
+</div>
+</section><section aria-labelledby="work-title" class="win file-section" id="work"><div class="wh"><span>case_files/ · {{t.ro}}</span><a class="x close-file" data-close="" href="#main">{{t.close}} ×</a></div>
+<h2 class="wt" id="work-title">{{t.workT}}</h2>
+<p class="wl">{{t.workL}}</p><p class="snapshot-note">{{historicalPolicy}}</p>
+<article class="cf">
+<div class="cfh"><span>{{t.cf}} 01</span><span class="tag">{{t.built}}</span></div>
+<div class="cfb">
+<h3 class="cft">PXRead</h3>
+<p style="margin: 8px 0 0">{{t.pxDesc}}</p>
+<div class="stats">
+<div><div class="sv">2,292</div><div class="sl">{{t.sCommits}}</div></div>
+<div><div class="sv">665</div><div class="sl">pull requests</div></div>
+<div><div class="sv">23,757</div><div class="sl">{{t.sCI}}</div></div>
+</div>
+<ol class="mech">{% for m in mech %}<li><span class="mi">{{m.i}}</span><span>{{m.s}}</span></li>{% endfor %}</ol>
+<div style="margin-top: 22px">
+{% for x in tiers %}<div class="tr"><span class="sw {{x.sw}}"></span><span class="tn">{{x.name}}</span><span class="td">{{x.d}}</span><span class="tc">{{x.n}}</span></div>{% endfor %}
+</div>
+</div>
+</article>
+<div class="grid2">
+{% for c in t.files2 %}
+<article class="cf small {{c.cls}}">
+<div class="cfh"><span>{{t.cf}} {{c.no}}</span><span class="tag {{c.cls}}">{{c.tag}}</span></div>
+<div class="cfb"><h3 class="cft">{% if c.url is defined %}<a href="{{c.url}}">{{c.name}} ↗</a>{% else %}{{c.name}}{% endif %}</h3><p class="cfd">{{c.desc}}</p><div class="meta">{{c.meta}}</div></div>
+</article>
+{% endfor %}
+</div>
+<p class="note">{{privateNote}}</p></section><section aria-labelledby="journey-title" class="win file-section" id="journey"><div class="wh"><span>journey.log · {{t.ro}}</span><a class="x close-file" data-close="" href="#main">{{t.close}} ×</a></div>
+<h2 class="wt" id="journey-title">{{t.jT}}</h2>
+<p class="wl">{{t.jL}}</p>
+<div class="log">
+{% for b in beats %}
+<div class="le"><span class="ln">LOG {{b.no}}</span><span class="lt">{{b.tag}}</span><div class="lx"><h3 class="lh">{{b.h}}</h3><p class="lb">{{b.b}}</p></div></div>
+{% endfor %}
+</div>
+<div class="dead"><b>14</b><div><strong>{{t.deadH}}</strong><div style="color: var(--soft); font-size: 13.5px">{{t.deadB}}</div></div></div>
+</section><section aria-labelledby="oss-title" class="win file-section" id="oss"><div class="wh"><span>upstream.log · {{t.ro}}</span><a class="x close-file" data-close="" href="#main">{{t.close}} ×</a></div>
+<h2 class="wt" id="oss-title">{{t.oT}}</h2>
+<p class="wl">{{t.oL}}</p>
+<div class="ohead"><div><b>47</b><span>{{t.oC}}</span></div><div><b>8</b><span>{{t.oP}}</span></div></div>
+<div style="margin-top: 22px">
+{% for o in oss %}
+<div class="orow"><a href="{{o.url}}">{{o.name}}</a><span class="ow">{{o.what}}</span><span class="ob"><span style="width: {{o.pct}}%"></span></span><span class="oc">{{o.n}}</span></div>
+{% endfor %}
+</div>
+<p class="note">{{t.oNote}}</p>
+<div class="evidence"><h3>{{evidenceHeading}}</h3>{% for p in evidence %}<p><a href="{{p.url}}">{{p.repo}} #{{p.number}} ↗</a><span>{{p.title}}</span></p>{% endfor %}</div></section><section aria-labelledby="dispatch-title" class="win file-section" id="dispatch"><div class="wh"><span>dispatch_slip · {{t.ro}}</span><a class="x close-file" data-close="" href="#main">{{t.close}} ×</a></div>
+<h2 class="wt" id="dispatch-title">{{t.dT}}</h2>
+<p class="wl">{{t.dL}}</p>
+<div class="slip">
+<div class="slip-top"><span>{{t.slip}}</span><span>AW-2027</span></div>
+<div class="sf"><span class="k">{{t.to}}</span><span>Andrew Wang · 王施元</span></div>
+<div class="sf"><span class="k">{{t.re}}</span><span>{{t.reV}}</span></div>
+<div class="sf"><span class="k">{{t.need}}</span><span>{{t.needV}}</span></div>
+<div class="routes">
+<a href="https://github.com/andrew05060414"><span>github / andrew05060414</span><span>↗</span></a>
+<a href="https://www.linkedin.com/in/andrewwanglink/"><span>linkedin / andrewwanglink</span><span>↗</span></a>
+<a href="mailto:andrewwangmail@gmail.com"><span>andrewwangmail@gmail.com</span><span>@</span></a>
+<a href="mailto:andrewwangmail@gmail.com?subject=Resume%20request"><span>{{resumeLabel}}</span><span>↗</span></a></div>
+<div class="slip-foot">{{t.dFoot}}</div>
+</div>
+</section></div><footer class="footer"><span>Andrew Wang · 王施元</span><a href="https://github.com/andrew05060414/andrew05060414.github.io">{{sourceLabel}} ↗</a><span>{{updatedLabel}} 2026-11-15</span></footer>
+</div></body></html>
