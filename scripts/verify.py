@@ -18,6 +18,10 @@ class Page(HTMLParser):
 
 def verify():
     data=json.loads((ROOT/'content/site.json').read_text(encoding='utf-8'))
+    projects=json.loads((ROOT/'content/projects.json').read_text(encoding='utf-8'))
+    project_ids=['project-pxread','project-antiochus','project-chronicle']
+    for lang in ('en','zh'):
+        assert [p['id'] for p in projects[lang]] == project_ids, 'Flagship project order changed'
     assert set(data['TX']['en']) == set(data['TX']['zh']), 'Bilingual content keys differ'
     assert sum(t[1] for t in data['TIERS']) == 665, 'Snapshot classification total changed'
     private_links=('andrew05060414/pxread','andrew05060414/antiochus','andrew05060414/chronicle')
@@ -31,6 +35,7 @@ def verify():
         ids=[a['id'] for _,a in p.elements if 'id' in a]
         assert len(ids)==len(set(ids)), 'Duplicate IDs'
         assert set(data['IDS']).issubset(ids), 'Missing file section'
+        assert set(project_ids).issubset(ids), 'Missing flagship project deep link'
         assert len([a for _,a in p.elements if 'f' in a.get('class','').split()]) == 665
         canonical=next(a['href'] for _,a in p.elements if a.get('rel')=='canonical')
         assert canonical==BASE+'/'+route, 'Wrong canonical URL'

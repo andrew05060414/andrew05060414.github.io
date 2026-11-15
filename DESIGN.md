@@ -11,3 +11,5 @@ JetBrains Mono carries interface and body copy; VT323 carries display numerals a
 Desktop pairs the name and personal statement with the PR grid. Compact layouts stack them, followed by the five file-entry links. The final entry is Contact, with a direct email route. Native dialogs present the files when scripting is available; ordinary semantic sections and anchor links remain the fallback.
 
 Preserve visible focus, keyboard dismissal, language-specific URLs, snapshot dates, and the built/dependency distinction. Respect reduced-motion preferences and check both palettes, both languages, and a 375px viewport before shipping interface changes.
+
+The first viewport features PXRead, Antiochus, and Chronicle directly. Their case studies use problem, engineering, and evidence sections; historical PR classifications are supporting material. Desktop layout uses actual content height rather than subtracting an estimated chrome height. Short desktop windows compact the PR-panel spacing; small screens and enlarged text retain natural page scrolling. In paper mode, inactive name pixels and the surface texture are transparent so only the letter strokes carry ink.
