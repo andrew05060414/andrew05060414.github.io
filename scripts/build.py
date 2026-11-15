@@ -1,6 +1,6 @@
 """Render the bilingual, dependency-free website from reviewed public content."""
 from pathlib import Path
-import json, shutil
+import hashlib, json, shutil
 from jinja2 import Environment, FileSystemLoader, StrictUndefined, select_autoescape
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -10,9 +10,11 @@ BASE = 'https://andrew05060414.github.io'
 def build():
     data = json.loads((ROOT/'content/site.json').read_text(encoding='utf-8'))
     evidence = json.loads((ROOT/'content/evidence.json').read_text(encoding='utf-8'))
+    projects = json.loads((ROOT/'content/projects.json').read_text(encoding='utf-8'))
     env = Environment(loader=FileSystemLoader(ROOT/'templates'), undefined=StrictUndefined,
                       autoescape=select_autoescape(['html']), keep_trailing_newline=True)
     page = env.get_template('index.html')
+    asset_version = hashlib.sha256(b''.join((ROOT/'assets'/name).read_bytes() for name in ('site.css','site.js'))).hexdigest()[:12]
     OUT.mkdir(exist_ok=True)
     shutil.copytree(ROOT/'assets', OUT/'assets', dirs_exist_ok=True)
     for lang in ('en', 'zh'):
@@ -22,8 +24,13 @@ def build():
         field = [dict(cls='f '+x['sw'],d=0) for x in tiers for _ in range(x['n'])]
         keys = [dict(id=id,n=f'{i+1:02}',l=t['keys'][i][0],s=t['keys'][i][1]) for i,id in enumerate(data['IDS'])]
         oss = [dict(name=o[0],url=o[1],n=o[2],pct=o[2]/18*100,what=t['ossWhat'][i]) for i,o in enumerate(data['OSS'])]
-        ctx = dict(t=t,lang=lang,htmlLang='zh-CN' if zh else 'en',rows=[data['ROW1'],data['ROW2']],
-                   field=field,tiers=tiers,keys=keys,oss=oss,evidence=evidence,
+        ctx = dict(t=t,lang=lang,htmlLang='zh-CN' if zh else 'en',rows=[data['ROW1'],data['ROW2']],assetVersion=asset_version,
+                   field=field,tiers=tiers,keys=keys,oss=oss,evidence=evidence,projects=projects[lang],
+                   problemLabel='要解决的问题' if zh else 'The problem',
+                   engineeringLabel='工程工作' if zh else 'Engineering work',
+                   evidenceLabel='证据与边界' if zh else 'Evidence and boundaries',
+                   historicalHeading='PXRead 交付流程的历史快照' if zh else 'Historical snapshot of PXRead delivery classifications',
+                   featuredLabel='重点项目' if zh else 'Main projects',
                    mech=[dict(i=f'{i+1:02}',s=s) for i,s in enumerate(t['mech'])],
                    beats=[dict(no=f'{i+1:02}',tag=b[0],h=b[1],b=b[2]) for i,b in enumerate(t['beats'])],
                    enCls='' if zh else 'on',zhCls='on' if zh else '',enCurrent='false' if zh else 'page',zhCurrent='page' if zh else 'false',isEn=not zh,isZh=zh,feed=t['feed'][0],

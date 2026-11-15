@@ -7,7 +7,7 @@
 <meta name="author" content="Andrew Wang"><meta name="robots" content="index,follow">
 <link rel="canonical" href="{{canonical}}"><link rel="alternate" hreflang="en" href="https://andrew05060414.github.io/"><link rel="alternate" hreflang="zh-CN" href="https://andrew05060414.github.io/zh/"><link rel="alternate" hreflang="x-default" href="https://andrew05060414.github.io/">
 <meta property="og:type" content="website"><meta property="og:title" content="{{pageTitle}}"><meta property="og:description" content="{{description}}"><meta property="og:url" content="{{canonical}}"><meta property="og:image" content="https://andrew05060414.github.io/assets/social-card.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Andrew Wang — AI infrastructure and LLM systems, Carnegie Mellon University"><meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="preload" href="/assets/jetbrains-mono-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/assets/site.css"><script src="/assets/site.js" defer></script>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="preload" href="/assets/jetbrains-mono-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/assets/site.css?v={{assetVersion}}"><script src="/assets/site.js?v={{assetVersion}}" defer></script>
 </head>
 <body><a class="skip-link" href="#main">{{skipLabel}}</a><div class="aw pal-crt lang-{{lang}}">
 <header class="top">
@@ -32,7 +32,7 @@
 <a href="https://www.linkedin.com/in/andrewwanglink/">LinkedIn ↗</a>
 <a href="mailto:andrewwangmail@gmail.com">andrewwangmail@gmail.com</a>
 </div>
-<p class="identity-line">{{identityLine}}</p><div class="motto">{{t.motto}}</div>
+<p class="identity-line">{{identityLine}}</p><nav class="featured-links" aria-label="{{featuredLabel}}"><a href="#project-pxread">PXRead ↗</a><a href="#project-antiochus">Antiochus ↗</a><a href="#project-chronicle">Chronicle ↗</a></nav>
 </div>
 <section aria-label="{{t.fieldH}}" class="fpanel">
 <div class="fh"><span>{{t.fieldH}}</span><span>PXRead</span></div>
@@ -68,31 +68,22 @@
 </div>
 </section><section aria-labelledby="work-title" class="win file-section" id="work"><div class="wh"><span>case_files/ · {{t.ro}}</span><a class="x close-file" data-close="" href="#main">{{t.close}} ×</a></div>
 <h2 class="wt" id="work-title">{{t.workT}}</h2>
-<p class="wl">{{t.workL}}</p><p class="snapshot-note">{{historicalPolicy}}</p>
-<article class="cf">
-<div class="cfh"><span>{{t.cf}} 01</span><span class="tag">{{t.built}}</span></div>
-<div class="cfb">
-<h3 class="cft">PXRead</h3>
-<p style="margin: 8px 0 0">{{t.pxDesc}}</p>
-<div class="stats">
-<div><div class="sv">2,292</div><div class="sl">{{t.sCommits}}</div></div>
-<div><div class="sv">665</div><div class="sl">pull requests</div></div>
-<div><div class="sv">23,757</div><div class="sl">{{t.sCI}}</div></div>
-</div>
-<ol class="mech">{% for m in mech %}<li><span class="mi">{{m.i}}</span><span>{{m.s}}</span></li>{% endfor %}</ol>
-<div style="margin-top: 22px">
-{% for x in tiers %}<div class="tr"><span class="sw {{x.sw}}"></span><span class="tn">{{x.name}}</span><span class="td">{{x.d}}</span><span class="tc">{{x.n}}</span></div>{% endfor %}
-</div>
-</div>
-</article>
-<div class="grid2">
-{% for c in t.files2 %}
-<article class="cf small {{c.cls}}">
-<div class="cfh"><span>{{t.cf}} {{c.no}}</span><span class="tag {{c.cls}}">{{c.tag}}</span></div>
-<div class="cfb"><h3 class="cft">{% if c.url is defined %}<a href="{{c.url}}">{{c.name}} ↗</a>{% else %}{{c.name}}{% endif %}</h3><p class="cfd">{{c.desc}}</p><div class="meta">{{c.meta}}</div></div>
+<p class="wl">{{t.workL}}</p>
+<div class="project-cases">
+{% for project in projects %}
+<article class="project-case" id="{{project.id}}">
+<header class="project-heading"><h3 class="cft">{{project.name}}</h3><span class="tag">{{t.built}}</span></header>
+<p class="project-summary">{{project.summary}}</p>
+<dl class="project-details"><div><dt>{{problemLabel}}</dt><dd>{{project.problem}}</dd></div>
+<div><dt>{{engineeringLabel}}</dt><dd><ul>{% for item in project.engineering %}<li>{{item}}</li>{% endfor %}</ul></dd></div>
+<div><dt>{{evidenceLabel}}</dt><dd>{{project.evidence}}</dd></div></dl>
 </article>
 {% endfor %}
 </div>
+<details class="historical-grid"><summary>{{historicalHeading}}</summary>
+<p class="snapshot-note">{{historicalPolicy}}</p>
+{% for x in tiers %}<div class="tr"><span class="sw {{x.sw}}"></span><span class="tn">{{x.name}}</span><span class="td">{{x.d}}</span><span class="tc">{{x.n}}</span></div>{% endfor %}
+</details>
 <p class="note">{{privateNote}}</p></section><section aria-labelledby="journey-title" class="win file-section" id="journey"><div class="wh"><span>journey.log · {{t.ro}}</span><a class="x close-file" data-close="" href="#main">{{t.close}} ×</a></div>
 <h2 class="wt" id="journey-title">{{t.jT}}</h2>
 <p class="wl">{{t.jL}}</p>

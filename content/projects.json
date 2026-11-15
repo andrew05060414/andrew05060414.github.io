@@ -1,0 +1,78 @@
+{
+  "en": [
+    {
+      "id": "project-pxread",
+      "name": "PXRead",
+      "summary": "A local library and reading system for mixed TXT and EPUB collections, built around durable works, editions, and revisions.",
+      "problem": "Source files arrive with inconsistent names, duplicates, uncertain metadata, and competing versions. A flat file list cannot keep reading progress and annotations attached to the right edition when one version supersedes another.",
+      "engineering": [
+        "A Work/Edition model separates a work from each readable edition; immutable revisions record body changes, and HEAD advancement uses compare-and-set.",
+        "An import decision flow records source evidence, candidate metadata, and confidence, then chooses append, fork, skip, or review; body files are content-addressed.",
+        "A single EPUB reading path uses tied annotation positions, with tests for reattachment and visible detachment."
+      ],
+      "evidence": "A working local application with a backend, web and mobile clients, schema migrations, and tests. Source is private; the public discussion covers architecture and implemented behavior."
+    },
+    {
+      "id": "project-antiochus",
+      "name": "Antiochus",
+      "summary": "A private control plane for agent-assisted delivery: intake, risk classification, review routing, evidence, and human gates.",
+      "problem": "Assisted development can produce changes faster than a person can inspect them. Passing checks and a plausible review do not establish that the evidence applies to the code now under review.",
+      "engineering": [
+        "Review verdicts bind to an exact commit; a newer commit makes an earlier verdict stale, and routing picks ordinary or senior review from risk.",
+        "The controller separates task intake and dispatch from authorization, escalates stuck reviews, and surfaces gates that need human attention.",
+        "Tests exercise controller decisions against fixture repositories and check that parked, human-owned, and out-of-scope work is left alone."
+      ],
+      "evidence": "Working scripts, tests, architecture records, and delivery policies. Several categories are specified but not implemented; this summary does not claim the whole design is deployed."
+    },
+    {
+      "id": "project-chronicle",
+      "name": "Chronicle",
+      "summary": "A private command-line entry point for searching, retrieving, and exporting agent history across changing retrieval backends.",
+      "problem": "A long-lived archive becomes hard to use when tools and storage change, and raw session output can contain credentials that should not leave the machine.",
+      "engineering": [
+        "A single standard-library front door maps verbs through an explicit route table to AgentsView while preserving caller arguments and backend exit codes.",
+        "An outbound redaction wrapper handles text, JSON, and JSONL before output leaves the machine and preserves the backend's exit status.",
+        "Tests cover routing, quoted arguments, error propagation, legacy-command refusal, installation shims, and synthetic-secret stripping."
+      ],
+      "evidence": "The front door, redaction rules, tests, and backup documentation are present. Memory extraction and conversational privacy annotation remain unfinished; the underlying search engine is third-party."
+    }
+  ],
+  "zh": [
+    {
+      "id": "project-pxread",
+      "name": "PXRead",
+      "summary": "面向来源混杂、版本重复的 TXT 与 EPUB 的本地书库和阅读系统，核心是持久的作品、版本和修订模型。",
+      "problem": "文件命名不统一、重复多、元数据不确定，而且同一作品常有多个版本。单纯管理文件无法保证阅读进度和标注在版本替换后仍指向正确内容。",
+      "engineering": [
+        "Work/Edition 双层模型把作品和具体可读版本分开；正文修订不可变，推进 HEAD 时使用 compare-and-set。",
+        "导入流程记录来源依据、候选元数据和置信度，再选择追加、分叉、跳过或待审；正文文件按内容哈希托管。",
+        "阅读统一走 EPUB，标注使用可重挂的位置契约，并覆盖重挂和明确失配的测试。"
+      ],
+      "evidence": "已有可运行的本地应用，包括后端、网页与移动客户端、数据库迁移和测试。源码保持私有，公开部分只讲架构与已实现行为。"
+    },
+    {
+      "id": "project-antiochus",
+      "name": "Antiochus",
+      "summary": "面向 agent 辅助交付的私有控制层：任务接入、风险分级、审查派工、证据与人工闸门。",
+      "problem": "agent 产出代码的速度可能超过人工检查速度。CI 通过、或者有一条看似合理的审查意见，都不能证明它针对的是当前待审代码。",
+      "engineering": [
+        "审查结论绑定具体 commit；代码更新后旧结论失效，并按风险把任务路由到普通或高级审查。",
+        "Controller 将任务接入、派工和授权边界分开，升级卡住的审查，并呈现需要人工处理的闸门。",
+        "测试用固定仓库场景验证 controller 决策，并确认搁置、人工负责和范围外的工作不会被误动。"
+      ],
+      "evidence": "已有脚本、测试、架构记录与交付规则。部分类别仍只是设计，本概述不声称整套设计都已部署生效。"
+    },
+    {
+      "id": "project-chronicle",
+      "name": "Chronicle",
+      "summary": "在会变化的检索后端之上，为 agent 历史提供搜索、读取和导出的私有命令行统一入口。",
+      "problem": "长期积累的会话档案会随着工具和存储更换而变得难用；原始输出还可能包含不应离开本机的密钥。",
+      "engineering": [
+        "用只依赖标准库的单文件前门按显式路由表把命令转给 AgentsView，同时保留调用参数和后端退出码。",
+        "后端输出在离开本机前经过脱敏包装，处理纯文本、JSON 和 JSONL，并保留原退出状态。",
+        "测试覆盖路由、带引号参数、错误传播、旧命令拒绝、各平台安装薄壳和合成密钥清除。"
+      ],
+      "evidence": "统一前门、脱敏规则、测试和备份文档均已存在。记忆提炼与对话隐私标注仍未完成；底层搜索引擎属于第三方项目。"
+    }
+  ]
+}

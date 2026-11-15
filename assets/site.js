@@ -73,9 +73,20 @@ if ('HTMLDialogElement' in window && typeof HTMLDialogElement.prototype.showModa
     dialog.addEventListener('pointerdown', e => { pressedOutside = outside(e); });
     dialog.addEventListener('pointerup', e => { if (pressedOutside && outside(e)) dialog.close(); });
   }
-  const id = decodeURIComponent(location.hash.slice(1));
-  const launch = [...document.querySelectorAll('.dock [data-panel]')].find(a => a.dataset.panel === id);
-  if (launch) { launchedFromHash = true; launch.click(); }
+  function openFromHash() {
+    const target = document.getElementById(location.hash.slice(1));
+    const section = target?.closest('.file-section');
+    if (!section) return;
+    launchedFromHash = true;
+    if (current && current !== section) archives.append(current);
+    current = section;
+    slot.append(section);
+    dialog.setAttribute('aria-labelledby', section.id + '-title');
+    if (!dialog.open) dialog.showModal();
+    if (target !== section) target.scrollIntoView({block:'start'});
+  }
+  window.addEventListener('hashchange', openFromHash);
+  openFromHash();
   root.classList.add('enhanced');
 }
 

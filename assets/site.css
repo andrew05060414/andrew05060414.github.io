@@ -233,3 +233,47 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--ink);outline-offset
 
 /* Identity must be legible on the first frame, including social previews. */
 .px.on{animation:none}.file-section .wh{padding-right:0}.theme-toggle{min-height:48px}.fbody>.snapshot-note{padding-bottom:2px}
+
+/* Let the actual header, file dock, and footer determine the remaining height. */
+html{scrollbar-gutter:auto}
+.aw{min-height:100dvh}
+@media(min-width:981px){
+  .enhanced>.stage{min-height:0;padding-block:clamp(18px,3dvh,40px)}
+  .enhanced .led{width:min(100%,clamp(18rem,calc((100dvh - 450px)*1.05),43.75rem))}
+  .enhanced .key{min-height:104px;gap:10px;padding-block:12px}
+}
+/* Unlit cells are structure, not ink. Paper needs only the letter strokes. */
+.pal-paper .led .px{background:transparent;box-shadow:none}
+.pal-paper .led .px.on{background:var(--ink)}
+.pal-paper::after{background:none}
+.project-cases{margin:28px 34px}
+.featured-links{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:14px;font-size:12px;line-height:1.65}
+.featured-links a{color:var(--soft);text-decoration:none}
+.featured-links a:hover{color:var(--ink);text-decoration:underline}
+.project-case{padding:24px 0;border-top:1px solid var(--rule);scroll-margin-top:72px}
+.project-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.project-summary{font-size:16px;line-height:1.7;max-width:70ch}
+.project-details{margin:24px 0 0;display:grid;gap:20px}
+.project-details>div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:20px}
+.project-details dt{font-size:12px;color:var(--soft)}
+.project-details dd{margin:0;font-size:14px;max-width:70ch}
+.project-details ul{margin:0;padding-left:20px}
+.project-details li+li{margin-top:8px}
+.historical-grid{margin:20px 34px;border-top:1px solid var(--line);padding-top:18px}
+.historical-grid summary{cursor:pointer;font-size:13px;color:var(--soft)}
+@media(max-width:640px){
+ .project-cases{margin:24px 18px}.project-details>div{grid-template-columns:minmax(0,1fr);gap:8px}
+ .project-heading{gap:12px}.project-summary{font-size:15px}.historical-grid{margin-inline:18px}
+}
+@media(min-width:981px) and (max-height:820px){
+  .enhanced>.stage{padding-block:16px;grid-template-columns:minmax(0,1fr) minmax(320px,380px)}
+  .enhanced .fpanel{max-width:380px;justify-self:end}
+  .enhanced .key{min-height:80px;gap:6px;padding-block:10px}
+  .enhanced .kn{font-size:26px}
+  .enhanced .fpanel .fbody{padding:12px 14px}
+  .enhanced .fpanel .fl{margin-top:10px}
+  .enhanced .fpanel .fl b{font-size:22px}
+  .enhanced .fpanel .cap{margin-top:8px;gap:0 10px;line-height:1.4}
+  .enhanced .fpanel .snapshot-note{margin-top:10px;font-size:11px;line-height:1.5}
+  .enhanced .fpanel .feed{min-height:40px;padding-block:8px}
+}

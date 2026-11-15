@@ -1709,7 +1709,7 @@
       "signal": "signal: open · summer 2027",
       "pit": "pittsburgh",
       "clr": "clearance",
-      "statement": "I build LLM infrastructure and tools that make AI-assisted software delivery more reliable.",
+      "statement": "I build applications, delivery systems, and memory tools for AI-assisted engineering.",
       "motto": "Build with agents. Ship with evidence.",
       "fieldH": "665 pull requests · one square each",
       "fieldAria": "665 PXRead pull requests by clearance tier: auto 185, ai-review 221, look-after 203, look-before 43, owner 13.",
@@ -1757,7 +1757,7 @@
         ],
         [
           "case files",
-          "6 files · 4 built"
+          "PXRead · Antiochus · Chronicle"
         ],
         [
           "journey",
@@ -1784,7 +1784,7 @@
       "aboutT": "About",
       "aboutP": [
         "Hi, I'm Andrew. I'm doing my MS in ECE at Carnegie Mellon, in the AI/ML Systems track. I finish in December 2027. Before that I did a BS in computer science at UC Santa Barbara.",
-        "I work on the infrastructure around coding agents: provider routing, searchable session history, and the checks a change must pass before it ships. I use these tools in my own projects and contribute fixes to the open-source software underneath them.",
+        "My work centers on three connected projects: PXRead, a reading and library application; Antiochus, the coordination and delivery boundaries around AI-assisted engineering; and Chronicle, a searchable entry point to work history across tools. Together they cover building the application, shipping changes, and retaining what I learn.",
         "This site brings together my projects, internships, and upstream contributions. The PR grid is a dated snapshot, not a live activity feed."
       ],
       "edu": [
@@ -1824,7 +1824,7 @@
         }
       ],
       "workT": "Case files",
-      "workL": "Four personal projects, and two open-source tools I build on.",
+      "workL": "My three main projects: a real application, AI delivery governance, and searchable work history.",
       "cf": "case file",
       "built": "built",
       "pxDesc": "My personal reading and library system. It's also where my whole delivery loop runs for real.",
@@ -1951,7 +1951,7 @@
       "signal": "信号：开放 · 2027 夏季",
       "pit": "匹兹堡",
       "clr": "权限",
-      "statement": "我做 LLM 基础设施，也做让 AI 辅助开发更可靠的工具。",
+      "statement": "我做实际使用的应用，也做 AI 辅助工程的交付系统和工作记忆工具。",
       "motto": "用 Agent 构建，凭证据交付。",
       "fieldH": "665 个 pull request · 一格一个",
       "fieldAria": "PXRead 的 665 个 pull request 按权限等级分布：auto 185，ai-review 221，look-after 203，look-before 43，owner 13。",
@@ -1999,7 +1999,7 @@
         ],
         [
           "案卷",
-          "6 份 · 4 份自建"
+          "PXRead · Antiochus · Chronicle"
         ],
         [
           "历程",
@@ -2026,7 +2026,7 @@
       "aboutT": "关于我",
       "aboutP": [
         "你好，我是 Andrew。我在卡内基梅隆大学读 ECE 硕士，方向是 AI/ML Systems，2027 年 12 月毕业。之前在加州大学圣塔芭芭拉分校读完了计算机科学本科。",
-        "我关注 coding agent 周围的基础设施：模型服务路由、可检索的会话历史，以及代码上线前的检查。我在自己的项目里使用这些工具，也向底层开源项目贡献修复。",
+        "我主要做三个相互关联的项目：PXRead 是真实使用的阅读与书库应用；Antiochus 组织 AI 辅助工程的派工与交付边界；Chronicle 让跨工具的工作历史能被检索和复用。它们分别回答应用怎么做、改动怎么交付、经验怎么留下。",
         "这里收录我的项目、实习和上游贡献。首页的 PR 方格是带日期的历史快照，不是实时活动监控。"
       ],
       "edu": [
@@ -2066,7 +2066,7 @@
         }
       ],
       "workT": "案卷",
-      "workL": "四个个人项目，以及两个我在其上构建的开源工具。",
+      "workL": "我的三个重点项目：真实应用、AI 交付治理，以及可检索的工作记忆。",
       "cf": "案卷",
       "built": "自建",
       "pxDesc": "我的个人阅读与书库系统。我整套交付流程也真实地跑在它上面。",
