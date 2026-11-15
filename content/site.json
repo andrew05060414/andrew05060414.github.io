@@ -1,0 +1,2200 @@
+{
+  "ROW1": {
+    "cols": 35,
+    "cells": [
+      {
+        "cls": "px",
+        "d": 0
+      },
+      {
+        "cls": "px on",
+        "d": 26
+      },
+      {
+        "cls": "px on",
+        "d": 52
+      },
+      {
+        "cls": "px on",
+        "d": 78
+      },
+      {
+        "cls": "px",
+        "d": 104
+      },
+      {
+        "cls": "px",
+        "d": 130
+      },
+      {
+        "cls": "px on",
+        "d": 156
+      },
+      {
+        "cls": "px",
+        "d": 182
+      },
+      {
+        "cls": "px",
+        "d": 208
+      },
+      {
+        "cls": "px",
+        "d": 234
+      },
+      {
+        "cls": "px on",
+        "d": 260
+      },
+      {
+        "cls": "px",
+        "d": 286
+      },
+      {
+        "cls": "px on",
+        "d": 312
+      },
+      {
+        "cls": "px on",
+        "d": 338
+      },
+      {
+        "cls": "px on",
+        "d": 364
+      },
+      {
+        "cls": "px on",
+        "d": 390
+      },
+      {
+        "cls": "px",
+        "d": 416
+      },
+      {
+        "cls": "px",
+        "d": 442
+      },
+      {
+        "cls": "px on",
+        "d": 468
+      },
+      {
+        "cls": "px on",
+        "d": 494
+      },
+      {
+        "cls": "px on",
+        "d": 520
+      },
+      {
+        "cls": "px on",
+        "d": 546
+      },
+      {
+        "cls": "px",
+        "d": 572
+      },
+      {
+        "cls": "px",
+        "d": 598
+      },
+      {
+        "cls": "px on",
+        "d": 624
+      },
+      {
+        "cls": "px on",
+        "d": 650
+      },
+      {
+        "cls": "px on",
+        "d": 676
+      },
+      {
+        "cls": "px on",
+        "d": 702
+      },
+      {
+        "cls": "px on",
+        "d": 728
+      },
+      {
+        "cls": "px",
+        "d": 754
+      },
+      {
+        "cls": "px on",
+        "d": 780
+      },
+      {
+        "cls": "px",
+        "d": 806
+      },
+      {
+        "cls": "px",
+        "d": 832
+      },
+      {
+        "cls": "px",
+        "d": 858
+      },
+      {
+        "cls": "px on",
+        "d": 884
+      },
+      {
+        "cls": "px on",
+        "d": 6
+      },
+      {
+        "cls": "px",
+        "d": 32
+      },
+      {
+        "cls": "px",
+        "d": 58
+      },
+      {
+        "cls": "px",
+        "d": 84
+      },
+      {
+        "cls": "px on",
+        "d": 110
+      },
+      {
+        "cls": "px",
+        "d": 136
+      },
+      {
+        "cls": "px on",
+        "d": 162
+      },
+      {
+        "cls": "px on",
+        "d": 188
+      },
+      {
+        "cls": "px",
+        "d": 214
+      },
+      {
+        "cls": "px",
+        "d": 240
+      },
+      {
+        "cls": "px on",
+        "d": 266
+      },
+      {
+        "cls": "px",
+        "d": 292
+      },
+      {
+        "cls": "px on",
+        "d": 318
+      },
+      {
+        "cls": "px",
+        "d": 344
+      },
+      {
+        "cls": "px",
+        "d": 370
+      },
+      {
+        "cls": "px",
+        "d": 396
+      },
+      {
+        "cls": "px on",
+        "d": 422
+      },
+      {
+        "cls": "px",
+        "d": 448
+      },
+      {
+        "cls": "px on",
+        "d": 474
+      },
+      {
+        "cls": "px",
+        "d": 500
+      },
+      {
+        "cls": "px",
+        "d": 526
+      },
+      {
+        "cls": "px",
+        "d": 552
+      },
+      {
+        "cls": "px on",
+        "d": 578
+      },
+      {
+        "cls": "px",
+        "d": 604
+      },
+      {
+        "cls": "px on",
+        "d": 630
+      },
+      {
+        "cls": "px",
+        "d": 656
+      },
+      {
+        "cls": "px",
+        "d": 682
+      },
+      {
+        "cls": "px",
+        "d": 708
+      },
+      {
+        "cls": "px",
+        "d": 734
+      },
+      {
+        "cls": "px",
+        "d": 760
+      },
+      {
+        "cls": "px on",
+        "d": 786
+      },
+      {
+        "cls": "px",
+        "d": 812
+      },
+      {
+        "cls": "px",
+        "d": 838
+      },
+      {
+        "cls": "px",
+        "d": 864
+      },
+      {
+        "cls": "px on",
+        "d": 890
+      },
+      {
+        "cls": "px on",
+        "d": 12
+      },
+      {
+        "cls": "px",
+        "d": 38
+      },
+      {
+        "cls": "px",
+        "d": 64
+      },
+      {
+        "cls": "px",
+        "d": 90
+      },
+      {
+        "cls": "px on",
+        "d": 116
+      },
+      {
+        "cls": "px",
+        "d": 142
+      },
+      {
+        "cls": "px on",
+        "d": 168
+      },
+      {
+        "cls": "px",
+        "d": 194
+      },
+      {
+        "cls": "px on",
+        "d": 220
+      },
+      {
+        "cls": "px",
+        "d": 246
+      },
+      {
+        "cls": "px on",
+        "d": 272
+      },
+      {
+        "cls": "px",
+        "d": 298
+      },
+      {
+        "cls": "px on",
+        "d": 324
+      },
+      {
+        "cls": "px",
+        "d": 350
+      },
+      {
+        "cls": "px",
+        "d": 376
+      },
+      {
+        "cls": "px",
+        "d": 402
+      },
+      {
+        "cls": "px on",
+        "d": 428
+      },
+      {
+        "cls": "px",
+        "d": 454
+      },
+      {
+        "cls": "px on",
+        "d": 480
+      },
+      {
+        "cls": "px",
+        "d": 506
+      },
+      {
+        "cls": "px",
+        "d": 532
+      },
+      {
+        "cls": "px",
+        "d": 558
+      },
+      {
+        "cls": "px on",
+        "d": 584
+      },
+      {
+        "cls": "px",
+        "d": 610
+      },
+      {
+        "cls": "px on",
+        "d": 636
+      },
+      {
+        "cls": "px",
+        "d": 662
+      },
+      {
+        "cls": "px",
+        "d": 688
+      },
+      {
+        "cls": "px",
+        "d": 714
+      },
+      {
+        "cls": "px",
+        "d": 740
+      },
+      {
+        "cls": "px",
+        "d": 766
+      },
+      {
+        "cls": "px on",
+        "d": 792
+      },
+      {
+        "cls": "px",
+        "d": 818
+      },
+      {
+        "cls": "px",
+        "d": 844
+      },
+      {
+        "cls": "px",
+        "d": 870
+      },
+      {
+        "cls": "px on",
+        "d": 896
+      },
+      {
+        "cls": "px on",
+        "d": 18
+      },
+      {
+        "cls": "px on",
+        "d": 44
+      },
+      {
+        "cls": "px on",
+        "d": 70
+      },
+      {
+        "cls": "px on",
+        "d": 96
+      },
+      {
+        "cls": "px on",
+        "d": 122
+      },
+      {
+        "cls": "px",
+        "d": 148
+      },
+      {
+        "cls": "px on",
+        "d": 174
+      },
+      {
+        "cls": "px",
+        "d": 200
+      },
+      {
+        "cls": "px",
+        "d": 226
+      },
+      {
+        "cls": "px on",
+        "d": 252
+      },
+      {
+        "cls": "px on",
+        "d": 278
+      },
+      {
+        "cls": "px",
+        "d": 304
+      },
+      {
+        "cls": "px on",
+        "d": 330
+      },
+      {
+        "cls": "px",
+        "d": 356
+      },
+      {
+        "cls": "px",
+        "d": 382
+      },
+      {
+        "cls": "px",
+        "d": 408
+      },
+      {
+        "cls": "px on",
+        "d": 434
+      },
+      {
+        "cls": "px",
+        "d": 460
+      },
+      {
+        "cls": "px on",
+        "d": 486
+      },
+      {
+        "cls": "px on",
+        "d": 512
+      },
+      {
+        "cls": "px on",
+        "d": 538
+      },
+      {
+        "cls": "px on",
+        "d": 564
+      },
+      {
+        "cls": "px",
+        "d": 590
+      },
+      {
+        "cls": "px",
+        "d": 616
+      },
+      {
+        "cls": "px on",
+        "d": 642
+      },
+      {
+        "cls": "px on",
+        "d": 668
+      },
+      {
+        "cls": "px on",
+        "d": 694
+      },
+      {
+        "cls": "px on",
+        "d": 720
+      },
+      {
+        "cls": "px",
+        "d": 746
+      },
+      {
+        "cls": "px",
+        "d": 772
+      },
+      {
+        "cls": "px on",
+        "d": 798
+      },
+      {
+        "cls": "px",
+        "d": 824
+      },
+      {
+        "cls": "px on",
+        "d": 850
+      },
+      {
+        "cls": "px",
+        "d": 876
+      },
+      {
+        "cls": "px on",
+        "d": 902
+      },
+      {
+        "cls": "px on",
+        "d": 24
+      },
+      {
+        "cls": "px",
+        "d": 50
+      },
+      {
+        "cls": "px",
+        "d": 76
+      },
+      {
+        "cls": "px",
+        "d": 102
+      },
+      {
+        "cls": "px on",
+        "d": 128
+      },
+      {
+        "cls": "px",
+        "d": 154
+      },
+      {
+        "cls": "px on",
+        "d": 180
+      },
+      {
+        "cls": "px",
+        "d": 206
+      },
+      {
+        "cls": "px",
+        "d": 232
+      },
+      {
+        "cls": "px",
+        "d": 258
+      },
+      {
+        "cls": "px on",
+        "d": 284
+      },
+      {
+        "cls": "px",
+        "d": 310
+      },
+      {
+        "cls": "px on",
+        "d": 336
+      },
+      {
+        "cls": "px",
+        "d": 362
+      },
+      {
+        "cls": "px",
+        "d": 388
+      },
+      {
+        "cls": "px",
+        "d": 414
+      },
+      {
+        "cls": "px on",
+        "d": 440
+      },
+      {
+        "cls": "px",
+        "d": 466
+      },
+      {
+        "cls": "px on",
+        "d": 492
+      },
+      {
+        "cls": "px",
+        "d": 518
+      },
+      {
+        "cls": "px on",
+        "d": 544
+      },
+      {
+        "cls": "px",
+        "d": 570
+      },
+      {
+        "cls": "px",
+        "d": 596
+      },
+      {
+        "cls": "px",
+        "d": 622
+      },
+      {
+        "cls": "px on",
+        "d": 648
+      },
+      {
+        "cls": "px",
+        "d": 674
+      },
+      {
+        "cls": "px",
+        "d": 700
+      },
+      {
+        "cls": "px",
+        "d": 726
+      },
+      {
+        "cls": "px",
+        "d": 752
+      },
+      {
+        "cls": "px",
+        "d": 778
+      },
+      {
+        "cls": "px on",
+        "d": 804
+      },
+      {
+        "cls": "px",
+        "d": 830
+      },
+      {
+        "cls": "px on",
+        "d": 856
+      },
+      {
+        "cls": "px",
+        "d": 882
+      },
+      {
+        "cls": "px on",
+        "d": 908
+      },
+      {
+        "cls": "px on",
+        "d": 30
+      },
+      {
+        "cls": "px",
+        "d": 56
+      },
+      {
+        "cls": "px",
+        "d": 82
+      },
+      {
+        "cls": "px",
+        "d": 108
+      },
+      {
+        "cls": "px on",
+        "d": 134
+      },
+      {
+        "cls": "px",
+        "d": 160
+      },
+      {
+        "cls": "px on",
+        "d": 186
+      },
+      {
+        "cls": "px",
+        "d": 212
+      },
+      {
+        "cls": "px",
+        "d": 238
+      },
+      {
+        "cls": "px",
+        "d": 264
+      },
+      {
+        "cls": "px on",
+        "d": 290
+      },
+      {
+        "cls": "px",
+        "d": 316
+      },
+      {
+        "cls": "px on",
+        "d": 342
+      },
+      {
+        "cls": "px",
+        "d": 368
+      },
+      {
+        "cls": "px",
+        "d": 394
+      },
+      {
+        "cls": "px",
+        "d": 420
+      },
+      {
+        "cls": "px on",
+        "d": 446
+      },
+      {
+        "cls": "px",
+        "d": 472
+      },
+      {
+        "cls": "px on",
+        "d": 498
+      },
+      {
+        "cls": "px",
+        "d": 524
+      },
+      {
+        "cls": "px",
+        "d": 550
+      },
+      {
+        "cls": "px on",
+        "d": 576
+      },
+      {
+        "cls": "px",
+        "d": 602
+      },
+      {
+        "cls": "px",
+        "d": 628
+      },
+      {
+        "cls": "px on",
+        "d": 654
+      },
+      {
+        "cls": "px",
+        "d": 680
+      },
+      {
+        "cls": "px",
+        "d": 706
+      },
+      {
+        "cls": "px",
+        "d": 732
+      },
+      {
+        "cls": "px",
+        "d": 758
+      },
+      {
+        "cls": "px",
+        "d": 784
+      },
+      {
+        "cls": "px on",
+        "d": 810
+      },
+      {
+        "cls": "px",
+        "d": 836
+      },
+      {
+        "cls": "px on",
+        "d": 862
+      },
+      {
+        "cls": "px",
+        "d": 888
+      },
+      {
+        "cls": "px on",
+        "d": 914
+      },
+      {
+        "cls": "px on",
+        "d": 36
+      },
+      {
+        "cls": "px",
+        "d": 62
+      },
+      {
+        "cls": "px",
+        "d": 88
+      },
+      {
+        "cls": "px",
+        "d": 114
+      },
+      {
+        "cls": "px on",
+        "d": 140
+      },
+      {
+        "cls": "px",
+        "d": 166
+      },
+      {
+        "cls": "px on",
+        "d": 192
+      },
+      {
+        "cls": "px",
+        "d": 218
+      },
+      {
+        "cls": "px",
+        "d": 244
+      },
+      {
+        "cls": "px",
+        "d": 270
+      },
+      {
+        "cls": "px on",
+        "d": 296
+      },
+      {
+        "cls": "px",
+        "d": 322
+      },
+      {
+        "cls": "px on",
+        "d": 348
+      },
+      {
+        "cls": "px on",
+        "d": 374
+      },
+      {
+        "cls": "px on",
+        "d": 400
+      },
+      {
+        "cls": "px on",
+        "d": 426
+      },
+      {
+        "cls": "px",
+        "d": 452
+      },
+      {
+        "cls": "px",
+        "d": 478
+      },
+      {
+        "cls": "px on",
+        "d": 504
+      },
+      {
+        "cls": "px",
+        "d": 530
+      },
+      {
+        "cls": "px",
+        "d": 556
+      },
+      {
+        "cls": "px",
+        "d": 582
+      },
+      {
+        "cls": "px on",
+        "d": 608
+      },
+      {
+        "cls": "px",
+        "d": 634
+      },
+      {
+        "cls": "px on",
+        "d": 660
+      },
+      {
+        "cls": "px on",
+        "d": 686
+      },
+      {
+        "cls": "px on",
+        "d": 712
+      },
+      {
+        "cls": "px on",
+        "d": 738
+      },
+      {
+        "cls": "px on",
+        "d": 764
+      },
+      {
+        "cls": "px",
+        "d": 790
+      },
+      {
+        "cls": "px",
+        "d": 816
+      },
+      {
+        "cls": "px on",
+        "d": 842
+      },
+      {
+        "cls": "px",
+        "d": 868
+      },
+      {
+        "cls": "px on",
+        "d": 894
+      },
+      {
+        "cls": "px",
+        "d": 920
+      }
+    ],
+    "w": 100
+  },
+  "ROW2": {
+    "cols": 23,
+    "cells": [
+      {
+        "cls": "px on",
+        "d": 420
+      },
+      {
+        "cls": "px",
+        "d": 446
+      },
+      {
+        "cls": "px",
+        "d": 472
+      },
+      {
+        "cls": "px",
+        "d": 498
+      },
+      {
+        "cls": "px on",
+        "d": 524
+      },
+      {
+        "cls": "px",
+        "d": 550
+      },
+      {
+        "cls": "px",
+        "d": 576
+      },
+      {
+        "cls": "px on",
+        "d": 602
+      },
+      {
+        "cls": "px on",
+        "d": 628
+      },
+      {
+        "cls": "px on",
+        "d": 654
+      },
+      {
+        "cls": "px",
+        "d": 680
+      },
+      {
+        "cls": "px",
+        "d": 706
+      },
+      {
+        "cls": "px on",
+        "d": 732
+      },
+      {
+        "cls": "px",
+        "d": 758
+      },
+      {
+        "cls": "px",
+        "d": 784
+      },
+      {
+        "cls": "px",
+        "d": 810
+      },
+      {
+        "cls": "px on",
+        "d": 836
+      },
+      {
+        "cls": "px",
+        "d": 862
+      },
+      {
+        "cls": "px",
+        "d": 888
+      },
+      {
+        "cls": "px on",
+        "d": 914
+      },
+      {
+        "cls": "px on",
+        "d": 940
+      },
+      {
+        "cls": "px on",
+        "d": 966
+      },
+      {
+        "cls": "px",
+        "d": 992
+      },
+      {
+        "cls": "px on",
+        "d": 426
+      },
+      {
+        "cls": "px",
+        "d": 452
+      },
+      {
+        "cls": "px",
+        "d": 478
+      },
+      {
+        "cls": "px",
+        "d": 504
+      },
+      {
+        "cls": "px on",
+        "d": 530
+      },
+      {
+        "cls": "px",
+        "d": 556
+      },
+      {
+        "cls": "px on",
+        "d": 582
+      },
+      {
+        "cls": "px",
+        "d": 608
+      },
+      {
+        "cls": "px",
+        "d": 634
+      },
+      {
+        "cls": "px",
+        "d": 660
+      },
+      {
+        "cls": "px on",
+        "d": 686
+      },
+      {
+        "cls": "px",
+        "d": 712
+      },
+      {
+        "cls": "px on",
+        "d": 738
+      },
+      {
+        "cls": "px on",
+        "d": 764
+      },
+      {
+        "cls": "px",
+        "d": 790
+      },
+      {
+        "cls": "px",
+        "d": 816
+      },
+      {
+        "cls": "px on",
+        "d": 842
+      },
+      {
+        "cls": "px",
+        "d": 868
+      },
+      {
+        "cls": "px on",
+        "d": 894
+      },
+      {
+        "cls": "px",
+        "d": 920
+      },
+      {
+        "cls": "px",
+        "d": 946
+      },
+      {
+        "cls": "px",
+        "d": 972
+      },
+      {
+        "cls": "px on",
+        "d": 998
+      },
+      {
+        "cls": "px on",
+        "d": 432
+      },
+      {
+        "cls": "px",
+        "d": 458
+      },
+      {
+        "cls": "px",
+        "d": 484
+      },
+      {
+        "cls": "px",
+        "d": 510
+      },
+      {
+        "cls": "px on",
+        "d": 536
+      },
+      {
+        "cls": "px",
+        "d": 562
+      },
+      {
+        "cls": "px on",
+        "d": 588
+      },
+      {
+        "cls": "px",
+        "d": 614
+      },
+      {
+        "cls": "px",
+        "d": 640
+      },
+      {
+        "cls": "px",
+        "d": 666
+      },
+      {
+        "cls": "px on",
+        "d": 692
+      },
+      {
+        "cls": "px",
+        "d": 718
+      },
+      {
+        "cls": "px on",
+        "d": 744
+      },
+      {
+        "cls": "px",
+        "d": 770
+      },
+      {
+        "cls": "px on",
+        "d": 796
+      },
+      {
+        "cls": "px",
+        "d": 822
+      },
+      {
+        "cls": "px on",
+        "d": 848
+      },
+      {
+        "cls": "px",
+        "d": 874
+      },
+      {
+        "cls": "px on",
+        "d": 900
+      },
+      {
+        "cls": "px",
+        "d": 926
+      },
+      {
+        "cls": "px",
+        "d": 952
+      },
+      {
+        "cls": "px",
+        "d": 978
+      },
+      {
+        "cls": "px",
+        "d": 1004
+      },
+      {
+        "cls": "px on",
+        "d": 438
+      },
+      {
+        "cls": "px",
+        "d": 464
+      },
+      {
+        "cls": "px on",
+        "d": 490
+      },
+      {
+        "cls": "px",
+        "d": 516
+      },
+      {
+        "cls": "px on",
+        "d": 542
+      },
+      {
+        "cls": "px",
+        "d": 568
+      },
+      {
+        "cls": "px on",
+        "d": 594
+      },
+      {
+        "cls": "px on",
+        "d": 620
+      },
+      {
+        "cls": "px on",
+        "d": 646
+      },
+      {
+        "cls": "px on",
+        "d": 672
+      },
+      {
+        "cls": "px on",
+        "d": 698
+      },
+      {
+        "cls": "px",
+        "d": 724
+      },
+      {
+        "cls": "px on",
+        "d": 750
+      },
+      {
+        "cls": "px",
+        "d": 776
+      },
+      {
+        "cls": "px",
+        "d": 802
+      },
+      {
+        "cls": "px on",
+        "d": 828
+      },
+      {
+        "cls": "px on",
+        "d": 854
+      },
+      {
+        "cls": "px",
+        "d": 880
+      },
+      {
+        "cls": "px on",
+        "d": 906
+      },
+      {
+        "cls": "px",
+        "d": 932
+      },
+      {
+        "cls": "px on",
+        "d": 958
+      },
+      {
+        "cls": "px on",
+        "d": 984
+      },
+      {
+        "cls": "px on",
+        "d": 1010
+      },
+      {
+        "cls": "px on",
+        "d": 444
+      },
+      {
+        "cls": "px",
+        "d": 470
+      },
+      {
+        "cls": "px on",
+        "d": 496
+      },
+      {
+        "cls": "px",
+        "d": 522
+      },
+      {
+        "cls": "px on",
+        "d": 548
+      },
+      {
+        "cls": "px",
+        "d": 574
+      },
+      {
+        "cls": "px on",
+        "d": 600
+      },
+      {
+        "cls": "px",
+        "d": 626
+      },
+      {
+        "cls": "px",
+        "d": 652
+      },
+      {
+        "cls": "px",
+        "d": 678
+      },
+      {
+        "cls": "px on",
+        "d": 704
+      },
+      {
+        "cls": "px",
+        "d": 730
+      },
+      {
+        "cls": "px on",
+        "d": 756
+      },
+      {
+        "cls": "px",
+        "d": 782
+      },
+      {
+        "cls": "px",
+        "d": 808
+      },
+      {
+        "cls": "px",
+        "d": 834
+      },
+      {
+        "cls": "px on",
+        "d": 860
+      },
+      {
+        "cls": "px",
+        "d": 886
+      },
+      {
+        "cls": "px on",
+        "d": 912
+      },
+      {
+        "cls": "px",
+        "d": 938
+      },
+      {
+        "cls": "px",
+        "d": 964
+      },
+      {
+        "cls": "px",
+        "d": 990
+      },
+      {
+        "cls": "px on",
+        "d": 1016
+      },
+      {
+        "cls": "px on",
+        "d": 450
+      },
+      {
+        "cls": "px",
+        "d": 476
+      },
+      {
+        "cls": "px on",
+        "d": 502
+      },
+      {
+        "cls": "px",
+        "d": 528
+      },
+      {
+        "cls": "px on",
+        "d": 554
+      },
+      {
+        "cls": "px",
+        "d": 580
+      },
+      {
+        "cls": "px on",
+        "d": 606
+      },
+      {
+        "cls": "px",
+        "d": 632
+      },
+      {
+        "cls": "px",
+        "d": 658
+      },
+      {
+        "cls": "px",
+        "d": 684
+      },
+      {
+        "cls": "px on",
+        "d": 710
+      },
+      {
+        "cls": "px",
+        "d": 736
+      },
+      {
+        "cls": "px on",
+        "d": 762
+      },
+      {
+        "cls": "px",
+        "d": 788
+      },
+      {
+        "cls": "px",
+        "d": 814
+      },
+      {
+        "cls": "px",
+        "d": 840
+      },
+      {
+        "cls": "px on",
+        "d": 866
+      },
+      {
+        "cls": "px",
+        "d": 892
+      },
+      {
+        "cls": "px on",
+        "d": 918
+      },
+      {
+        "cls": "px",
+        "d": 944
+      },
+      {
+        "cls": "px",
+        "d": 970
+      },
+      {
+        "cls": "px",
+        "d": 996
+      },
+      {
+        "cls": "px on",
+        "d": 1022
+      },
+      {
+        "cls": "px",
+        "d": 456
+      },
+      {
+        "cls": "px on",
+        "d": 482
+      },
+      {
+        "cls": "px",
+        "d": 508
+      },
+      {
+        "cls": "px on",
+        "d": 534
+      },
+      {
+        "cls": "px",
+        "d": 560
+      },
+      {
+        "cls": "px",
+        "d": 586
+      },
+      {
+        "cls": "px on",
+        "d": 612
+      },
+      {
+        "cls": "px",
+        "d": 638
+      },
+      {
+        "cls": "px",
+        "d": 664
+      },
+      {
+        "cls": "px",
+        "d": 690
+      },
+      {
+        "cls": "px on",
+        "d": 716
+      },
+      {
+        "cls": "px",
+        "d": 742
+      },
+      {
+        "cls": "px on",
+        "d": 768
+      },
+      {
+        "cls": "px",
+        "d": 794
+      },
+      {
+        "cls": "px",
+        "d": 820
+      },
+      {
+        "cls": "px",
+        "d": 846
+      },
+      {
+        "cls": "px on",
+        "d": 872
+      },
+      {
+        "cls": "px",
+        "d": 898
+      },
+      {
+        "cls": "px",
+        "d": 924
+      },
+      {
+        "cls": "px on",
+        "d": 950
+      },
+      {
+        "cls": "px on",
+        "d": 976
+      },
+      {
+        "cls": "px on",
+        "d": 1002
+      },
+      {
+        "cls": "px on",
+        "d": 1028
+      }
+    ],
+    "w": "65.71"
+  },
+  "TIERS": [
+    [
+      "auto",
+      185,
+      "k-green"
+    ],
+    [
+      "ai-review",
+      221,
+      "k-green"
+    ],
+    [
+      "look-after",
+      203,
+      "k-ring"
+    ],
+    [
+      "look-before",
+      43,
+      "k-amber"
+    ],
+    [
+      "owner",
+      13,
+      "k-amber"
+    ]
+  ],
+  "OSS": [
+    [
+      "opencodex",
+      "https://github.com/lidge-jun/opencodex",
+      18
+    ],
+    [
+      "agentsview",
+      "https://github.com/kenn-io/agentsview",
+      10
+    ],
+    [
+      "AzurPilot",
+      "https://github.com/wess09/AzurPilot",
+      6
+    ],
+    [
+      "Stronghold-Protocol",
+      "https://github.com/sganggs/Stronghold-Protocol",
+      5
+    ],
+    [
+      "cockpit-tools",
+      "https://github.com/jlcodes99/cockpit-tools",
+      3
+    ],
+    [
+      "hstry",
+      "https://github.com/byteowlz/hstry",
+      3
+    ],
+    [
+      "agentmemory",
+      "https://github.com/rohitg00/agentmemory",
+      1
+    ],
+    [
+      "AzurPilotLauncher",
+      "https://github.com/wess09/AzurPilotLauncher",
+      1
+    ]
+  ],
+  "TX": {
+    "en": {
+      "signal": "signal: open · summer 2027",
+      "pit": "pittsburgh",
+      "clr": "clearance",
+      "statement": "I build LLM infrastructure and tools that make AI-assisted software delivery more reliable.",
+      "motto": "Build with agents. Ship with evidence.",
+      "fieldH": "665 pull requests · one square each",
+      "fieldAria": "665 PXRead pull requests by clearance tier: auto 185, ai-review 221, look-after 203, look-before 43, owner 13.",
+      "lgGreen": "green: merges on evidence alone",
+      "lgAmber": "amber: needs a human first",
+      "lgRing": "hollow: merges on evidence, I read it after",
+      "panelH": "signal",
+      "panel": [
+        {
+          "k": "status",
+          "v": "Seeking summer 2027 internships"
+        },
+        {
+          "k": "focus",
+          "v": "AI infra / LLM systems"
+        },
+        {
+          "k": "now",
+          "v": "MS ECE · Carnegie Mellon"
+        }
+      ],
+      "pipeH": "how my work ships · live",
+      "pipeAria": "My delivery pipeline: issue, dispatch, agent builds, CI, verdict bound to a commit, clearance gate, merge. After the gate, auto, ai-review and look-after merge on evidence; look-before and owner wait for me.",
+      "stages": [
+        "issue",
+        "dispatch",
+        "agent builds",
+        "CI",
+        "verdict → commit",
+        "clearance gate",
+        "merged"
+      ],
+      "human": "ANDREW",
+      "scale": "flow drawn to scale of 665 real PXRead PRs",
+      "feed": [
+        "665 PRs classified · snapshot 2026-10-28",
+        "406 in auto + ai-review tiers · historical snapshot",
+        "47 commits credited upstream · snapshot 2026-10-28"
+      ],
+      "navAria": "Personnel file sections",
+      "keys": [
+        [
+          "about",
+          "who I am"
+        ],
+        [
+          "case files",
+          "6 files · 4 built"
+        ],
+        [
+          "journey",
+          "6 logs · 14 dead ends"
+        ],
+        [
+          "open source",
+          "47 commits · 8 projects"
+        ],
+        [
+          "contact",
+          "email · résumé on request"
+        ]
+      ],
+      "files": [
+        "about.txt",
+        "case_files/",
+        "journey.log",
+        "upstream.log",
+        "dispatch_slip"
+      ],
+      "ro": "read-only",
+      "close": "close",
+      "aboutT": "About",
+      "aboutP": [
+        "Hi, I'm Andrew. I'm doing my MS in ECE at Carnegie Mellon, in the AI/ML Systems track. I finish in December 2027. Before that I did a BS in computer science at UC Santa Barbara.",
+        "I work on the infrastructure around coding agents: provider routing, searchable session history, and the checks a change must pass before it ships. I use these tools in my own projects and contribute fixes to the open-source software underneath them.",
+        "This site brings together my projects, internships, and upstream contributions. The PR grid is a dated snapshot, not a live activity feed."
+      ],
+      "edu": [
+        {
+          "k": "education",
+          "v": "MS ECE · Carnegie Mellon",
+          "d": "AI/ML Systems · expected Dec 2027"
+        },
+        {
+          "k": "",
+          "v": "BS CS · UC Santa Barbara",
+          "d": "Computer science · graduated 2026"
+        }
+      ],
+      "seekK": "looking for",
+      "seekV": "Summer 2027 internships",
+      "roles": [
+        "AI infrastructure / LLM systems",
+        "Backend & distributed systems",
+        "Platform & developer infrastructure",
+        "Forward-deployed engineering"
+      ],
+      "jobs": [
+        {
+          "org": "Longgang Data",
+          "where": "Shenzhen",
+          "when": "Jun–Aug 2026",
+          "role": "AI infrastructure engineering",
+          "body": "I deployed LLMs locally and benchmarked them across heterogeneous hardware: H100, AMD Ryzen AI Max+ 395, Ascend 910B. vLLM, llama.cpp, evalscope."
+        },
+        {
+          "org": "BaDaTech",
+          "where": "Wuhan",
+          "when": "May–Jun 2026",
+          "role": "AI application engineering",
+          "body": "I replaced a LangChain prototype with a smaller orchestration layer of my own. A typical query went from 2+ minutes to about 20 seconds."
+        }
+      ],
+      "workT": "Case files",
+      "workL": "Four personal projects, and two open-source tools I build on.",
+      "cf": "case file",
+      "built": "built",
+      "pxDesc": "My personal reading and library system. It's also where my whole delivery loop runs for real.",
+      "sCommits": "commits",
+      "sCI": "CI runs",
+      "mech": [
+        "I built and used a delivery process around issues, agent-authored changes, CI, and independent review.",
+        "In this snapshot, each PR was classified by the highest-risk path it touched.",
+        "Review verdicts were tied to a specific commit; changing the code invalidated the verdict.",
+        "The configured tier determined the evidence and human review required before a merge."
+      ],
+      "tierD": [
+        "CI is the evidence.",
+        "CI plus a review verdict bound to the commit.",
+        "Merges on evidence. I read it afterward.",
+        "I read it before it merges.",
+        "Only I can approve it."
+      ],
+      "files2": [
+        {
+          "no": "02",
+          "name": "cc-router",
+          "tag": "built · public source",
+          "cls": "",
+          "desc": "A cross-platform Claude Code launcher for provider routing, model selection, remote setup, and diagnostics.",
+          "meta": "PowerShell + shell · public source and tests",
+          "url": "https://github.com/andrew05060414/cc-router"
+        },
+        {
+          "no": "03",
+          "name": "Antiochus",
+          "tag": "built",
+          "cls": "",
+          "desc": "The governance design around PXRead. It's where I write down the tiers, the dispatch rules and the review contract.",
+          "meta": "Delivery policies, review contracts, and architecture decisions"
+        },
+        {
+          "no": "04",
+          "name": "Chronicle",
+          "tag": "built",
+          "cls": "",
+          "desc": "One front door over a changing set of memory backends. Callers talk to Chronicle. What's behind it can change.",
+          "meta": "Session search powered by AgentsView"
+        },
+        {
+          "no": "05",
+          "name": "Multica",
+          "tag": "dependency",
+          "cls": "dep",
+          "desc": "The agent work board and runtime. I adopted it on purpose instead of building my own.",
+          "meta": "multica-ai/multica · 1 upstream fix, carried by the maintainer"
+        },
+        {
+          "no": "06",
+          "name": "AgentsView",
+          "tag": "dependency",
+          "cls": "dep",
+          "desc": "The session search engine behind Chronicle. I didn't build it. I send fixes upstream.",
+          "meta": "kenn-io/agentsview · 10 commits landed upstream"
+        }
+      ],
+      "jT": "Journey",
+      "jL": "Entries from my own log. The mistakes stay in.",
+      "beats": [
+        [
+          "incident",
+          "The $55 night",
+          "An auto-reviewer fired 34 times in under two hours. I switched it to on-demand the same night."
+        ],
+        [
+          "rule",
+          "A rule caught its own failure",
+          "A week after I wrote the verdict-binding rule, it caught a passing verdict bound to the wrong commit (PX-460/461)."
+        ],
+        [
+          "reversal",
+          "Reversed in one day",
+          "I put the human review queue in a private repo. A day later I moved it to the work board instead."
+        ],
+        [
+          "retraction",
+          "I retracted my own design",
+          "I proposed some over-engineering and retracted it myself the same day."
+        ],
+        [
+          "leak",
+          "The leak that built a gate",
+          "During a repo split, deleted docs were still readable in two public branches. That's why this site has a privacy-scan gate."
+        ],
+        [
+          "trust",
+          "Owner sign-off shrank",
+          "As the evidence held up, I needed to sign off on less. It isn't a one-way ratchet. The scope can grow back."
+        ]
+      ],
+      "deadH": "dead ends in my notes.",
+      "deadB": "I write down what didn't work so I don't try it twice.",
+      "oT": "Open source",
+      "oL": "Fixes I land in the tools I use every day.",
+      "oC": "commits landed upstream",
+      "oP": "projects",
+      "ossWhat": [
+        "Provider proxy for Codex CLI and Claude Code",
+        "Session search for coding agents",
+        "Game automation toolkit",
+        "Browser tower-defense fan remake",
+        "Account manager for AI coding IDEs",
+        "Unified history for AI agents",
+        "Persistent memory for coding agents",
+        "Launcher for AzurPilot"
+      ],
+      "oNote": "Landed means commits on the project's default branch that I wrote or co-authored. Some maintainers close a PR and carry the change with my authorship kept, so counting merged PRs alone undercounts by more than half. These figures were collected on October 28, 2026; they are not current totals. Commit counts describe contribution activity, not impact or sole authorship.",
+      "dT": "Contact",
+      "dL": "For internships, engineering work, or a conversation about the tools I build.",
+      "slip": "dispatch slip",
+      "to": "to",
+      "re": "re",
+      "reV": "Summer 2027 · AI infrastructure / LLM systems",
+      "need": "clearance",
+      "needV": "none",
+      "dFoot": "Email is the best way to reach me. There's no phone number here, on purpose."
+    },
+    "zh": {
+      "signal": "信号：开放 · 2027 夏季",
+      "pit": "匹兹堡",
+      "clr": "权限",
+      "statement": "我做 LLM 基础设施，也做让 AI 辅助开发更可靠的工具。",
+      "motto": "用 Agent 构建，凭证据交付。",
+      "fieldH": "665 个 pull request · 一格一个",
+      "fieldAria": "PXRead 的 665 个 pull request 按权限等级分布：auto 185，ai-review 221，look-after 203，look-before 43，owner 13。",
+      "lgGreen": "绿色：只凭证据合并",
+      "lgAmber": "琥珀色：需要人先过目",
+      "lgRing": "空心：凭证据合并，我事后再看",
+      "panelH": "信号",
+      "panel": [
+        {
+          "k": "状态",
+          "v": "寻找 2027 夏季实习"
+        },
+        {
+          "k": "方向",
+          "v": "AI 基础设施 / LLM 系统"
+        },
+        {
+          "k": "目前",
+          "v": "卡内基梅隆大学 · ECE 硕士"
+        }
+      ],
+      "pipeH": "我的代码是怎么上线的 · 实时",
+      "pipeAria": "我的交付流水线：需求、调度、agent 构建、CI、结论绑定 commit、权限闸门、合并。过了闸门后，auto、ai-review、look-after 凭证据合并；look-before 和 owner 要等我。",
+      "stages": [
+        "需求",
+        "调度",
+        "agent 构建",
+        "CI",
+        "结论 → commit",
+        "权限闸门",
+        "已合并"
+      ],
+      "human": "我",
+      "scale": "流量按 PXRead 真实 665 个 PR 的比例绘制",
+      "feed": [
+        "665 个 PR 的分类 · 快照 2026-10-28",
+        "auto 与 ai-review 共 406 个 · 历史快照",
+        "上游署名贡献 47 个 commit · 快照 2026-10-28"
+      ],
+      "navAria": "人事档案各部分",
+      "keys": [
+        [
+          "关于我",
+          "我是谁"
+        ],
+        [
+          "案卷",
+          "6 份 · 4 份自建"
+        ],
+        [
+          "历程",
+          "6 条日志 · 14 条死路"
+        ],
+        [
+          "开源",
+          "47 个 commit · 8 个项目"
+        ],
+        [
+          "联系我",
+          "邮箱 · 可索取简历"
+        ]
+      ],
+      "files": [
+        "about.txt",
+        "case_files/",
+        "journey.log",
+        "upstream.log",
+        "dispatch_slip"
+      ],
+      "ro": "只读",
+      "close": "关闭",
+      "aboutT": "关于我",
+      "aboutP": [
+        "你好，我是 Andrew。我在卡内基梅隆大学读 ECE 硕士，方向是 AI/ML Systems，2027 年 12 月毕业。之前在加州大学圣塔芭芭拉分校读完了计算机科学本科。",
+        "我关注 coding agent 周围的基础设施：模型服务路由、可检索的会话历史，以及代码上线前的检查。我在自己的项目里使用这些工具，也向底层开源项目贡献修复。",
+        "这里收录我的项目、实习和上游贡献。首页的 PR 方格是带日期的历史快照，不是实时活动监控。"
+      ],
+      "edu": [
+        {
+          "k": "教育",
+          "v": "ECE 硕士 · 卡内基梅隆大学",
+          "d": "AI/ML Systems 方向 · 预计 2027 年 12 月毕业"
+        },
+        {
+          "k": "",
+          "v": "计算机科学学士 · 加州大学圣塔芭芭拉分校",
+          "d": "计算机科学 · 2026 年毕业"
+        }
+      ],
+      "seekK": "在找",
+      "seekV": "2027 夏季实习",
+      "roles": [
+        "AI 基础设施 / LLM 系统",
+        "后端与分布式系统",
+        "平台与开发者基础设施",
+        "Forward-deployed 工程"
+      ],
+      "jobs": [
+        {
+          "org": "Longgang Data",
+          "where": "深圳",
+          "when": "2026 年 6–8 月",
+          "role": "AI 基础设施工程",
+          "body": "我在本地部署 LLM，并在异构硬件上做基准测试：H100、AMD Ryzen AI Max+ 395、昇腾 910B。工具是 vLLM、llama.cpp、evalscope。"
+        },
+        {
+          "org": "BaDaTech",
+          "where": "武汉",
+          "when": "2026 年 5–6 月",
+          "role": "AI 应用工程",
+          "body": "我用一个更小的自研编排层替换了 LangChain 原型。一次典型查询从 2 分钟以上降到 20 秒左右。"
+        }
+      ],
+      "workT": "案卷",
+      "workL": "四个个人项目，以及两个我在其上构建的开源工具。",
+      "cf": "案卷",
+      "built": "自建",
+      "pxDesc": "我的个人阅读与书库系统。我整套交付流程也真实地跑在它上面。",
+      "sCommits": "commits",
+      "sCI": "次 CI 运行",
+      "mech": [
+        "我围绕需求、Agent 生成的改动、CI 和独立审查构建并使用了一套交付流程。",
+        "在这份快照里，每个 PR 按其涉及文件的最高风险等级分类。",
+        "审查结论绑定到具体 commit，代码更新后旧结论失效。",
+        "配置的等级决定合并之前需要哪些证据和人工审查。"
+      ],
+      "tierD": [
+        "CI 就是证据。",
+        "CI 加上绑定到 commit 的 review 结论。",
+        "凭证据合并，之后我再看。",
+        "合并之前我先看。",
+        "只有我能批准。"
+      ],
+      "files2": [
+        {
+          "no": "02",
+          "name": "cc-router",
+          "tag": "自建 · 公开源码",
+          "cls": "",
+          "desc": "跨平台 Claude Code 启动器，整合 provider 路由、模型选择、远程环境配置与诊断。",
+          "meta": "PowerShell + shell · 公开源码和测试",
+          "url": "https://github.com/andrew05060414/cc-router"
+        },
+        {
+          "no": "03",
+          "name": "Antiochus",
+          "tag": "自建",
+          "cls": "",
+          "desc": "PXRead 外层的治理设计。权限等级、调度规则和 review 约定都写在这里。",
+          "meta": "交付策略、审查约定与架构决策"
+        },
+        {
+          "no": "04",
+          "name": "Chronicle",
+          "tag": "自建",
+          "cls": "",
+          "desc": "在一组不断变化的记忆后端前面，只开一扇门。调用方只跟 Chronicle 打交道，后面换什么都行。",
+          "meta": "会话搜索基于 AgentsView"
+        },
+        {
+          "no": "05",
+          "name": "Multica",
+          "tag": "依赖",
+          "cls": "dep",
+          "desc": "agent 的任务看板和运行时。我是有意选用它，而不是自己造一个。",
+          "meta": "multica-ai/multica · 1 个上游修复，由维护者合入"
+        },
+        {
+          "no": "06",
+          "name": "AgentsView",
+          "tag": "依赖",
+          "cls": "dep",
+          "desc": "Chronicle 背后的会话搜索引擎。不是我做的，我往上游提修复。",
+          "meta": "kenn-io/agentsview · 上游已合入 10 个 commit"
+        }
+      ],
+      "jT": "历程",
+      "jL": "摘自我自己的日志。错误也留着。",
+      "beats": [
+        [
+          "事故",
+          "那个 55 美元的晚上",
+          "一个自动 reviewer 在不到两小时里触发了 34 次。当晚我就把它改成了按需触发。"
+        ],
+        [
+          "规则",
+          "一条规则抓到了自己的失败",
+          "verdict 绑定规则写下一周后，它抓到了一条绑在错误 commit 上的通过结论（PX-460/461）。"
+        ],
+        [
+          "推翻",
+          "一天之内推翻",
+          "我把人工审核队列放进了一个私有仓库。一天后，我把它改到了任务看板上。"
+        ],
+        [
+          "撤回",
+          "我撤回了自己的设计",
+          "我提出了一个过度设计的方案，同一天又自己撤回了。"
+        ],
+        [
+          "泄漏",
+          "催生门禁的泄漏",
+          "拆分仓库时，已删除的文档在两个公开分支里仍然可读。这个网站的隐私扫描门禁就是这么来的。"
+        ],
+        [
+          "信任",
+          "需要我签字的范围缩小了",
+          "证据一直站得住，需要我亲自签字的就越来越少。这不是单向的，范围也可以再变大。"
+        ]
+      ],
+      "deadH": "条笔记中记录的弯路。",
+      "deadB": "没走通的路我都记下来，免得再走一遍。",
+      "oT": "开源",
+      "oL": "我在日常工具里合入的修复。",
+      "oC": "个 commit 合入上游",
+      "oP": "个项目",
+      "ossWhat": [
+        "Codex CLI 与 Claude Code 的通用 provider 代理",
+        "coding agent 的本地会话搜索",
+        "游戏自动化工具",
+        "浏览器塔防同人重制",
+        "AI 编程 IDE 的多账号管理",
+        "AI agent 的统一历史",
+        "coding agent 的持久记忆",
+        "AzurPilot 启动器"
+      ],
+      "oNote": "“合入”指项目默认分支上由我编写或共同署名的 commit。有些维护者会关掉 PR、保留我的署名再合入改动，所以只数已合并的 PR 会少算一半以上。 数字采集于 2026 年 10 月 28 日，不是当前总数。commit 数反映贡献活动，不代表影响力或独立完成。",
+      "dT": "联系我",
+      "dL": "实习机会、工程合作，或聊聊我做的工具。",
+      "slip": "派单",
+      "to": "收件人",
+      "re": "事由",
+      "reV": "2027 夏季实习 · AI 基础设施 / LLM 系统",
+      "need": "所需权限",
+      "needV": "无",
+      "dFoot": "找我最好发邮件。这里刻意不放电话。"
+    }
+  },
+  "IDS": [
+    "about",
+    "work",
+    "journey",
+    "oss",
+    "dispatch"
+  ]
+}
